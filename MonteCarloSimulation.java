@@ -33,7 +33,7 @@ public class MonteCarloSimulation {
     }
 
     static double randRisk() { return LOWER_BOUND + (UPPER_BOUND - LOWER_BOUND) * Math.random(); }
-
+//hifromAnna
     static double tentRisk(double controlRisk) {
         double cdf = Math.random();
         double risk = (UPPER_BOUND - LOWER_BOUND) / 2.0;
